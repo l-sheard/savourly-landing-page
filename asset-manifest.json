@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/savourly-landing-page/static/css/main.e7367e74.css",
-    "main.js": "/savourly-landing-page/static/js/main.22e4a7ef.js",
+    "main.css": "/savourly-landing-page/static/css/main.f84cf5b2.css",
+    "main.js": "/savourly-landing-page/static/js/main.52eb9a07.js",
     "static/js/453.42fc51bd.chunk.js": "/savourly-landing-page/static/js/453.42fc51bd.chunk.js",
     "index.html": "/savourly-landing-page/index.html",
-    "main.e7367e74.css.map": "/savourly-landing-page/static/css/main.e7367e74.css.map",
-    "main.22e4a7ef.js.map": "/savourly-landing-page/static/js/main.22e4a7ef.js.map",
+    "main.f84cf5b2.css.map": "/savourly-landing-page/static/css/main.f84cf5b2.css.map",
+    "main.52eb9a07.js.map": "/savourly-landing-page/static/js/main.52eb9a07.js.map",
     "453.42fc51bd.chunk.js.map": "/savourly-landing-page/static/js/453.42fc51bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7367e74.css",
-    "static/js/main.22e4a7ef.js"
+    "static/css/main.f84cf5b2.css",
+    "static/js/main.52eb9a07.js"
   ]
 }
