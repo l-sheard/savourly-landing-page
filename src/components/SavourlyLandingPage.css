@@ -39,7 +39,7 @@
   }
 
   .logo {
-    height: 40px;
+    height: 90px;
   }
 
   .logo-text {
@@ -238,6 +238,8 @@
   .app-screenshot {
     border-radius: 1rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-height: 500px; /* Added this line to make the screenshot smaller */
+    width: auto; /* Added this line to maintain aspect ratio */
   }
 
   /* Features Section */

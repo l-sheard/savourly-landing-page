@@ -26,8 +26,7 @@ function SavourlyLandingPage() {
       <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
         <div className="navbar-container">
           <div className="logo-container">
-            <img src="/logo.png" alt="Savourly Logo" className="logo" />
-            <span className="logo-text">Savourly</span>
+            <img src={`${process.env.PUBLIC_URL}/Savourly.png`} alt="Savourly Logo" className="logo" />
           </div>
           <div className="nav-links">
             <a href="#features" className="nav-link">Features</a>
@@ -64,7 +63,7 @@ function SavourlyLandingPage() {
           <div className="hero-image-container">
             <div className="app-screenshot-wrapper">
               <img
-                src="/app-screenshot.png"
+                src={`${process.env.PUBLIC_URL}/app-screenshot.png`}
                 alt="Savourly App Screenshot"
                 className="app-screenshot"
               />
@@ -89,7 +88,7 @@ function SavourlyLandingPage() {
               </div>
               <h3 className="feature-title">AI-Powered Analysis</h3>
               <p className="feature-description">
-                Our advanced AI instantly recognizes ingredients and cooking steps from any TikTok recipe video.
+                Our advanced AI instantly recognizes ingredients and cooking steps from any TikTok or Instagram recipe video.
               </p>
             </div>
 
@@ -111,9 +110,9 @@ function SavourlyLandingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                 </svg>
               </div>
-              <h3 className="feature-title">Save Your Favorites</h3>
+              <h3 className="feature-title">Order Missing Ingredients</h3>
               <p className="feature-description">
-                Create a personal cookbook by saving your favorite recipes for quick access anytime.
+                Simply order any missing ingredients directly through the app so you can be cooking in no time.
               </p>
             </div>
           </div>
@@ -140,7 +139,7 @@ function SavourlyLandingPage() {
               <div className="step-number">2</div>
               <h3 className="step-title">Share with Savourly</h3>
               <p className="step-description">
-                Copy the video link and paste it into the Savourly app.
+                Click share and send it over to the Savourly app.
               </p>
             </div>
 
@@ -148,7 +147,7 @@ function SavourlyLandingPage() {
               <div className="step-number">3</div>
               <h3 className="step-title">Get Your Recipe</h3>
               <p className="step-description">
-                Instantly receive a complete recipe with ingredients and instructions.
+                Instantly receive a complete written out recipe with ingredients list and instructions. Buy any missing ingredients directly from the app.
               </p>
             </div>
           </div>
@@ -159,27 +158,27 @@ function SavourlyLandingPage() {
       <section className="screenshots-section">
         <div className="section-container">
           <h2 className="section-title">
-            App <span className="highlight">Screenshots</span>
+            From <span className="highlight">video</span> to <span className="highlight">recipe</span> to <span className="highlight">checkout</span>
           </h2>
 
           <div className="screenshots-container">
             <div className="screenshot-wrapper">
               <img
-                src="/screenshot1.png"
+                src={`${process.env.PUBLIC_URL}/app-screenshot-5.png`}
                 alt="Savourly App Screenshot 1"
                 className="screenshot"
               />
             </div>
             <div className="screenshot-wrapper">
               <img
-                src="/screenshot2.png"
+                src={`${process.env.PUBLIC_URL}/app-screenshot-2.png`}
                 alt="Savourly App Screenshot 2"
                 className="screenshot"
               />
             </div>
             <div className="screenshot-wrapper">
               <img
-                src="/screenshot3.png"
+                src={`${process.env.PUBLIC_URL}/app-screenshot-3.png`}
                 alt="Savourly App Screenshot 3"
                 className="screenshot"
               />
@@ -195,7 +194,7 @@ function SavourlyLandingPage() {
             Download Savourly Today
           </h2>
           <p className="download-description">
-            Transform the way you cook with TikTok recipes. Available now on iOS and Android.
+            Transform the way you cook with TikTok and Instagram recipes - no more rewinding and searching through the comments section for ingredients. Available now on iOS and Android.
           </p>
 
           <div className="store-buttons">
@@ -231,7 +230,6 @@ function SavourlyLandingPage() {
         <div className="footer-container">
           <div className="footer-content">
             <div className="footer-logo">
-              <img src="/logo.png" alt="Savourly Logo" className="footer-logo-img" />
               <span className="footer-logo-text">Savourly</span>
             </div>
 
